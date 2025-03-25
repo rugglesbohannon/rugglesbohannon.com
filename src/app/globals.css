@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 240, 240, 240;
+  --background-rgb: 5, 5, 5;
+  --accent-rgb: 70, 143, 255;
+  --font-inter: '';
+  --font-montserrat: '';
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 51, 51, 51;
+    --background-start-rgb: 255, 255, 255;
+    --background-end-rgb: 248, 248, 248;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  .font-display {
+    font-family: var(--font-montserrat), Montserrat, sans-serif;
+  }
+}
+
+.section {
+  padding: 4rem 0;
+} 
