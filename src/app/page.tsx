@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { FaLinkedin, FaGithub, FaPalette } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaPalette, FaDatabase } from 'react-icons/fa'
 import ContactForm from '@/components/ContactForm'
 
 export default function Home() {
@@ -28,15 +28,42 @@ export default function Home() {
               <p className="text-xl max-w-2xl text-muted mb-6">
                 Welcome to my personal website
               </p>
-              <div className="flex space-x-6 mb-2">
-                <Link href="https://www.linkedin.com/in/yourlinkedin" className="text-3xl text-primary hover:text-primary/80 transition-colors" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin />
+              <div className="flex flex-wrap gap-6 mb-2">
+                <Link 
+                  href="https://www.linkedin.com/in/ruggles-bohannon-a2775717b/" 
+                  className="flex flex-col items-center text-primary hover:text-primary/80 transition-colors group" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin className="text-3xl mb-1" />
+                  <span className="text-xs text-muted group-hover:text-primary/80 transition-colors">LinkedIn</span>
                 </Link>
-                <Link href="https://github.com/yourgithub" className="text-3xl text-foreground hover:text-muted transition-colors" target="_blank" rel="noopener noreferrer">
-                  <FaGithub />
+                <Link 
+                  href="https://github.com/rugglesbohannon" 
+                  className="flex flex-col items-center text-foreground hover:text-muted transition-colors group" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub className="text-3xl mb-1" />
+                  <span className="text-xs text-muted group-hover:text-muted transition-colors">GitHub</span>
                 </Link>
-                <Link href="https://yourartgallery.com" className="text-3xl text-secondary hover:text-secondary/80 transition-colors" target="_blank" rel="noopener noreferrer">
-                  <FaPalette />
+                <Link 
+                  href="https://www.openamlab.com/" 
+                  className="flex flex-col items-center text-accent hover:text-accent/80 transition-colors group" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <FaDatabase className="text-3xl mb-1" />
+                  <span className="text-xs text-muted group-hover:text-accent/80 transition-colors">AM Lab</span>
+                </Link>
+                <Link 
+                  href="https://www.rugglesbohannondesigns.com/" 
+                  className="flex flex-col items-center text-secondary hover:text-secondary/80 transition-colors group" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <FaPalette className="text-3xl mb-1" />
+                  <span className="text-xs text-muted group-hover:text-secondary/80 transition-colors">Portfolio</span>
                 </Link>
               </div>
             </div>
@@ -50,15 +77,10 @@ export default function Home() {
           <h2 className="font-display text-3xl md:text-4xl font-light tracking-medium uppercase mb-8 text-center text-foreground">About Me</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg leading-relaxed mb-6 text-muted">
-              Hello! I'm Ruggles Bohannon. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Nulla facilisi. Sed eget metus vel nisl tincidunt efficitur. 
-              Proin euismod, nunc eget luctus blandit, libero velit fermentum risus, 
-              eu posuere magna nunc vel mi.
+              I'm excited about the possibilities of using data science and artificial intelligence (AI) to totally transform manufacturing—making it smarter, more sustainable, and accessible to everyone. As a techno-optimist, I believe technology, especially additive manufacturing (AM), can solve real-world problems by decentralizing production, reducing waste, and sparking rapid innovation. Over the last few years, I've dived deep into building practical tools and frameworks that bring AI directly into manufacturing processes, making them not just efficient but genuinely intelligent.
             </p>
             <p className="text-lg leading-relaxed text-muted">
-              When I'm not working, you can find me creating art, exploring new technologies, 
-              or enjoying the outdoors. Feel free to connect with me through the social links above 
-              or using the contact information below.
+              To help drive this vision, I created AM LAB, a cloud-based platform that tracks and analyzes the latest trends and innovations in additive manufacturing. It uses cutting-edge analytics, synthetic data, and AI-driven insights to empower people in the industry to make smarter, faster decisions. Outside of tech, I keep myself inspired and balanced by surfing, running, fly fishing, painting, and playing guitar—always staying curious and working hard.
             </p>
           </div>
         </div>

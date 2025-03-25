@@ -10,11 +10,11 @@ export default function ContactForm() {
       </p>
       
       <a 
-        href="mailto:your-email@example.com" 
+        href="mailto:rugglesbohannon@gmail.com" 
         className="inline-flex items-center gap-2 text-xl font-medium text-primary hover:text-primary/80 transition-colors font-display tracking-medium"
       >
         <FaEnvelope className="text-2xl" />
-        your-email@example.com
+        Send me an email
       </a>
       
       <p className="mt-6 text-muted/80">

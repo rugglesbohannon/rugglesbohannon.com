@@ -11,8 +11,8 @@ module.exports = {
         background: '#050505',
         foreground: '#f0f0f0',
         primary: '#468fff',
-        secondary: '#ff6b6b',
-        accent: '#32d74b',
+        secondary: '#9c84c7',
+        accent: '#6eca9c',
         muted: '#888888'
       },
       fontFamily: {
