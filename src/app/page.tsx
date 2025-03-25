@@ -10,20 +10,22 @@ export default function Home() {
       <section className="w-full py-20 border-b border-muted/20">
         <div className="container mx-auto px-4">
           {/* Mobile Layout - only shows on small screens */}
-          <div className="flex md:hidden flex-row items-center gap-4 mb-6">
-            <div className="w-1/4 flex justify-center">
-              <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-primary">
+          <div className="flex md:hidden flex-col items-center gap-4 mb-6">
+            <div className="flex justify-center">
+              <div className="relative w-28 h-28 rounded-full overflow-hidden border-2 border-primary shadow-md">
                 <Image 
                   src="/linkedinheadshot.jpeg" 
                   alt="Ruggles Bohannon"
-                  fill
+                  width={112}
+                  height={112}
                   className="object-cover"
+                  style={{ objectPosition: '50% 30%' }}
                   priority
                 />
               </div>
             </div>
-            <div className="w-3/4">
-              <h1 className="font-display text-3xl font-light tracking-medium uppercase text-foreground">
+            <div className="text-center">
+              <h1 className="font-display text-2xl font-light tracking-medium uppercase text-foreground">
                 Ruggles Bohannon
               </h1>
             </div>
