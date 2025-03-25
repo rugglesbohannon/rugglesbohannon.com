@@ -12,9 +12,9 @@ export default function ContactForm() {
       <div className="flex justify-center mt-4">
         <a 
           href="mailto:rugglesbohannon@gmail.com" 
-          className="flex items-center gap-2 px-6 py-3 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg transition-colors border border-primary/30"
+          className="flex items-center gap-3 px-5 py-3 bg-primary/20 hover:bg-primary/30 text-primary rounded-lg transition-colors border-2 border-primary/40 shadow-md"
         >
-          <FaEnvelope className="text-xl" />
+          <FaEnvelope className="text-2xl" />
           <span className="font-medium">Send me an email</span>
         </a>
       </div>

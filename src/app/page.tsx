@@ -28,41 +28,41 @@ export default function Home() {
               <p className="text-xl max-w-2xl text-muted mb-6">
                 Welcome to my personal website
               </p>
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap gap-4 mb-4">
                 <Link 
                   href="https://www.linkedin.com/in/ruggles-bohannon-a2775717b/" 
-                  className="flex items-center gap-2 px-4 py-2 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg transition-colors border border-primary/30" 
+                  className="flex items-center gap-3 px-5 py-3 bg-primary/20 hover:bg-primary/30 text-primary rounded-lg transition-colors border-2 border-primary/40 shadow-md min-w-[120px]" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  <FaLinkedin className="text-xl" />
+                  <FaLinkedin className="text-2xl" />
                   <span className="font-medium">LinkedIn</span>
                 </Link>
                 <Link 
                   href="https://github.com/rugglesbohannon" 
-                  className="flex items-center gap-2 px-4 py-2 bg-foreground/10 hover:bg-foreground/20 text-foreground rounded-lg transition-colors border border-foreground/30" 
+                  className="flex items-center gap-3 px-5 py-3 bg-foreground/20 hover:bg-foreground/30 text-foreground rounded-lg transition-colors border-2 border-foreground/40 shadow-md min-w-[120px]" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  <FaGithub className="text-xl" />
+                  <FaGithub className="text-2xl" />
                   <span className="font-medium">GitHub</span>
                 </Link>
                 <Link 
                   href="https://www.openamlab.com/" 
-                  className="flex items-center gap-2 px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors border border-accent/30" 
+                  className="flex items-center gap-3 px-5 py-3 bg-accent/20 hover:bg-accent/30 text-accent rounded-lg transition-colors border-2 border-accent/40 shadow-md min-w-[120px]" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  <FaDatabase className="text-xl" />
+                  <FaDatabase className="text-2xl" />
                   <span className="font-medium">AM Lab</span>
                 </Link>
                 <Link 
                   href="https://www.rugglesbohannondesigns.com/" 
-                  className="flex items-center gap-2 px-4 py-2 bg-secondary/10 hover:bg-secondary/20 text-secondary rounded-lg transition-colors border border-secondary/30" 
+                  className="flex items-center gap-3 px-5 py-3 bg-secondary/20 hover:bg-secondary/30 text-secondary rounded-lg transition-colors border-2 border-secondary/40 shadow-md min-w-[120px]" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  <FaPalette className="text-xl" />
+                  <FaPalette className="text-2xl" />
                   <span className="font-medium">Portfolio</span>
                 </Link>
               </div>
