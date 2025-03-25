@@ -9,7 +9,28 @@ export default function Home() {
       {/* Hero Section */}
       <section className="w-full py-20 border-b border-muted/20">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center gap-10">
+          {/* Mobile Layout - only shows on small screens */}
+          <div className="flex md:hidden flex-row items-center gap-4 mb-6">
+            <div className="w-1/4 flex justify-center">
+              <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-primary">
+                <Image 
+                  src="/linkedinheadshot.jpeg" 
+                  alt="Ruggles Bohannon"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            </div>
+            <div className="w-3/4">
+              <h1 className="font-display text-3xl font-light tracking-medium uppercase text-foreground">
+                Ruggles Bohannon
+              </h1>
+            </div>
+          </div>
+
+          {/* Desktop Layout - hidden on mobile */}
+          <div className="hidden md:flex flex-col md:flex-row items-center gap-10">
             <div className="md:w-1/3 flex justify-center">
               <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary">
                 <Image 
@@ -67,6 +88,51 @@ export default function Home() {
                 </Link>
               </div>
             </div>
+          </div>
+          
+          {/* Welcome Text - Mobile Only */}
+          <p className="md:hidden text-center text-lg text-muted mb-6">
+            Welcome to my personal website
+          </p>
+          
+          {/* Mobile Buttons - 2x2 Grid - Only visible on mobile */}
+          <div className="grid md:hidden grid-cols-2 gap-3 max-w-xs mx-auto">
+            <Link 
+              href="https://www.linkedin.com/in/ruggles-bohannon-a2775717b/" 
+              className="flex items-center gap-2 px-3 py-2 bg-primary/20 hover:bg-primary/30 text-primary rounded-lg transition-colors border-2 border-primary/40 shadow-md" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="text-lg" />
+              <span className="font-medium text-sm">LinkedIn</span>
+            </Link>
+            <Link 
+              href="https://github.com/rugglesbohannon" 
+              className="flex items-center gap-2 px-3 py-2 bg-foreground/20 hover:bg-foreground/30 text-foreground rounded-lg transition-colors border-2 border-foreground/40 shadow-md" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="text-lg" />
+              <span className="font-medium text-sm">GitHub</span>
+            </Link>
+            <Link 
+              href="https://www.openamlab.com/" 
+              className="flex items-center gap-2 px-3 py-2 bg-accent/20 hover:bg-accent/30 text-accent rounded-lg transition-colors border-2 border-accent/40 shadow-md" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <FaDatabase className="text-lg" />
+              <span className="font-medium text-sm">AM Lab</span>
+            </Link>
+            <Link 
+              href="https://www.rugglesbohannondesigns.com/" 
+              className="flex items-center gap-2 px-3 py-2 bg-secondary/20 hover:bg-secondary/30 text-secondary rounded-lg transition-colors border-2 border-secondary/40 shadow-md" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <FaPalette className="text-lg" />
+              <span className="font-medium text-sm">Portfolio</span>
+            </Link>
           </div>
         </div>
       </section>
