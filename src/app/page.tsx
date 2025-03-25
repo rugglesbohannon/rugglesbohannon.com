@@ -28,42 +28,42 @@ export default function Home() {
               <p className="text-xl max-w-2xl text-muted mb-6">
                 Welcome to my personal website
               </p>
-              <div className="flex flex-wrap gap-6 mb-2">
+              <div className="flex flex-wrap gap-3">
                 <Link 
                   href="https://www.linkedin.com/in/ruggles-bohannon-a2775717b/" 
-                  className="flex flex-col items-center text-primary hover:text-primary/80 transition-colors group" 
+                  className="flex items-center gap-2 px-4 py-2 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg transition-colors border border-primary/30" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  <FaLinkedin className="text-3xl mb-1" />
-                  <span className="text-xs text-muted group-hover:text-primary/80 transition-colors">LinkedIn</span>
+                  <FaLinkedin className="text-xl" />
+                  <span className="font-medium">LinkedIn</span>
                 </Link>
                 <Link 
                   href="https://github.com/rugglesbohannon" 
-                  className="flex flex-col items-center text-foreground hover:text-muted transition-colors group" 
+                  className="flex items-center gap-2 px-4 py-2 bg-foreground/10 hover:bg-foreground/20 text-foreground rounded-lg transition-colors border border-foreground/30" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  <FaGithub className="text-3xl mb-1" />
-                  <span className="text-xs text-muted group-hover:text-muted transition-colors">GitHub</span>
+                  <FaGithub className="text-xl" />
+                  <span className="font-medium">GitHub</span>
                 </Link>
                 <Link 
                   href="https://www.openamlab.com/" 
-                  className="flex flex-col items-center text-accent hover:text-accent/80 transition-colors group" 
+                  className="flex items-center gap-2 px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors border border-accent/30" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  <FaDatabase className="text-3xl mb-1" />
-                  <span className="text-xs text-muted group-hover:text-accent/80 transition-colors">AM Lab</span>
+                  <FaDatabase className="text-xl" />
+                  <span className="font-medium">AM Lab</span>
                 </Link>
                 <Link 
                   href="https://www.rugglesbohannondesigns.com/" 
-                  className="flex flex-col items-center text-secondary hover:text-secondary/80 transition-colors group" 
+                  className="flex items-center gap-2 px-4 py-2 bg-secondary/10 hover:bg-secondary/20 text-secondary rounded-lg transition-colors border border-secondary/30" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  <FaPalette className="text-3xl mb-1" />
-                  <span className="text-xs text-muted group-hover:text-secondary/80 transition-colors">Portfolio</span>
+                  <FaPalette className="text-xl" />
+                  <span className="font-medium">Portfolio</span>
                 </Link>
               </div>
             </div>
