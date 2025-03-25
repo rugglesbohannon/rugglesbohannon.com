@@ -80,7 +80,7 @@ export default function Home() {
               I'm excited about the possibilities of using data science and artificial intelligence (AI) to totally transform manufacturing—making it smarter, more sustainable, and accessible to everyone. As a techno-optimist, I believe technology, especially additive manufacturing (AM), can solve real-world problems by decentralizing production, reducing waste, and sparking rapid innovation. Over the last few years, I've dived deep into building practical tools and frameworks that bring AI directly into manufacturing processes, making them not just efficient but genuinely intelligent.
             </p>
             <p className="text-lg leading-relaxed text-muted">
-              To help drive this vision, I created AM LAB, a cloud-based platform that tracks and analyzes the latest trends and innovations in additive manufacturing. It uses cutting-edge analytics, synthetic data, and AI-driven insights to empower people in the industry to make smarter, faster decisions. Outside of tech, I keep myself inspired and balanced by surfing, running, fly fishing, painting, and playing guitar—always staying curious and working hard.
+              To help drive this vision, I created AM LAB, a cloud-based platform that tracks and analyzes the latest trends and innovations in additive manufacturing. It uses a combination of machine learning, NLP, data engineering, and analytics to forcast trends and empower people in the industry to make smarter, faster decisions. Outside of tech, I keep myself inspired and balanced by surfing, running, fly fishing, painting, and playing guitar—always staying curious and working hard.
             </p>
           </div>
         </div>
