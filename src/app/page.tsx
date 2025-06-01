@@ -145,10 +145,16 @@ export default function Home() {
           <h2 className="font-display text-3xl md:text-4xl font-light tracking-medium uppercase mb-8 text-center text-foreground">About Me</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg leading-relaxed mb-6 text-muted">
-              I'm excited about the possibilities of using data science and artificial intelligence (AI) to totally transform manufacturing—making it smarter, more sustainable, and accessible to everyone. As a techno-optimist, I believe technology, especially additive manufacturing (AM), can solve real-world problems by decentralizing production, reducing waste, and sparking rapid innovation. Over the last few years, I've dived deep into building practical tools and frameworks that bring AI directly into manufacturing processes, making them not just efficient but genuinely intelligent.
+              I am interested in the intersection of agentic AI, defense tech, and additive manufacturing. I aim to operate at the frontier of technology and manufacturing research - an arena long fueled by defense innovation and now supercharged by AI. I believe this intersection is redefining how we design and build nearly everything, and I'm excited to contribute to that revolution.
+            </p>
+            <p className="text-lg leading-relaxed mb-6 text-muted">
+              Over the past five years I founded a cloud‑based research platform that tracks additive‑manufacturing adoption within the military contracting sector. I have worked with technology companies, doubling factory throughput with custom 3‑D‑printed tooling. I have digitized legacy hardware for water‑treatment companies. I have delivered custom data pipelines for a leading generative‑design company, and was selected as a undergraduate invitee to OpenAI's 2024 Developer Day. I am currently serving as a DoD fellow supporting the Space Force at the SDA TAP Lab.
+            </p>
+            <p className="text-lg leading-relaxed mb-6 text-muted">
+              My toolkit spans Python, SQL, Machine Learning, N8n, Cursor, Scikit-learn, and modern AI/LLM frameworks for data engineering and RAG applications; Google Cloud and AWS for scalable deployments; Tableau, Plotly, and Excel for insight visualization; and eight years of CAD, DFAM, and generative‑design experience in Fusion 360. I'm equally comfortable coding, welding fixtures, or briefing on the impact of emerging tech.
             </p>
             <p className="text-lg leading-relaxed text-muted">
-              To help drive this vision, I created AM LAB, a cloud-based platform that tracks and analyzes the latest trends and innovations in additive manufacturing. It uses a combination of machine learning, NLP, data engineering, and analytics to forcast trends and empower people in the industry to make smarter, faster decisions. Outside of tech, I keep myself inspired and balanced by surfing, running, fly fishing, painting, and playing guitar—always staying curious and working hard.
+              I'm a techno‑optimist who believes frontier technology should move fast - and ship. If you're building systems that demand both technical rigor and hands‑on manufacturing savvy, let's talk about how we can push the edge together.
             </p>
           </div>
         </div>
