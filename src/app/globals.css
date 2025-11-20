@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 240, 240, 240;
-  --background-rgb: 5, 5, 5;
-  --accent-rgb: 70, 143, 255;
-  --font-inter: '';
-  --font-montserrat: '';
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+  --accent-rgb: 0, 200, 255;
+  --glass-bg: rgba(15, 15, 15, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.08);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +21,9 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  min-height: 100vh;
+  letter-spacing: -0.01em;
 }
 
 @layer utilities {
@@ -31,7 +34,75 @@ body {
 
 @layer base {
   .font-display {
-    font-family: var(--font-montserrat), Montserrat, sans-serif;
+    font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  .glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+  }
+  
+  .glass-dark {
+    background: rgba(30, 30, 50, 0.4);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translate(0, 0) scale(1) rotate(0deg);
+    }
+    25% {
+      transform: translate(120px, -100px) scale(1.15) rotate(90deg);
+    }
+    50% {
+      transform: translate(-60px, 80px) scale(0.85) rotate(180deg);
+    }
+    75% {
+      transform: translate(90px, 50px) scale(1.05) rotate(270deg);
+    }
+    100% {
+      transform: translate(0, 0) scale(1) rotate(360deg);
+    }
+  }
+  
+  @keyframes float-delayed {
+    0% {
+      transform: translate(0, 0) scale(1) rotate(0deg);
+    }
+    25% {
+      transform: translate(-110px, 90px) scale(1.2) rotate(-90deg);
+    }
+    50% {
+      transform: translate(85px, -65px) scale(0.8) rotate(-180deg);
+    }
+    75% {
+      transform: translate(-70px, -50px) scale(1.08) rotate(-270deg);
+    }
+    100% {
+      transform: translate(0, 0) scale(1) rotate(-360deg);
+    }
+  }
+  
+  @keyframes float-slow {
+    0% {
+      transform: translate(0, 0) scale(1) rotate(45deg);
+    }
+    25% {
+      transform: translate(75px, 110px) scale(1.1) rotate(135deg);
+    }
+    50% {
+      transform: translate(-95px, -75px) scale(0.9) rotate(225deg);
+    }
+    75% {
+      transform: translate(65px, -85px) scale(1.05) rotate(315deg);
+    }
+    100% {
+      transform: translate(0, 0) scale(1) rotate(405deg);
+    }
   }
 }
 
