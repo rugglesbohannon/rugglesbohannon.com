@@ -97,7 +97,7 @@ export default function Home() {
           <div className="md:col-span-9 w-full space-y-8">
             <div className="group">
               <div className="flex justify-between items-baseline">
-                <span className="text-xl text-white font-medium">Stealth Space Company</span>
+                <span className="text-xl text-white font-medium">Stealth Space Co.</span>
                 <span className="text-sm text-gray-500">2024 → Present</span>
               </div>
               <p className="mt-2 text-gray-400">Co-Founder & President • Data Infrastructure for Commercial Space Systems</p>
@@ -105,7 +105,7 @@ export default function Home() {
 
             <div className="group">
               <div className="flex justify-between items-baseline">
-                <span className="text-xl text-white font-medium">Defense Innovation Unit Fellow</span>
+                <span className="text-xl text-white font-medium">Department of Defense Fellow</span>
                 <span className="text-sm text-gray-500">2025</span>
               </div>
               <p className="mt-2 text-gray-400">DIU x USSF Special Project</p>
@@ -116,7 +116,7 @@ export default function Home() {
                 <span className="text-xl text-white font-medium">AM LAB</span>
                 <span className="text-sm text-gray-500">2024</span>
               </div>
-              <p className="mt-2 text-gray-400">Research platform tracking additive manufacturing adoption.</p>
+              <p className="mt-2 text-gray-400">Research platform tracking additive manufacturing adoption</p>
             </div>
 
             <div className="group">

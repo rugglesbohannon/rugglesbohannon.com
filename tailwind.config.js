@@ -16,8 +16,7 @@ module.exports = {
         muted: '#888888'
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        display: ['Montserrat', 'sans-serif'],
+        sans: ['var(--font-inter)', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', 'sans-serif'],
       },
       letterSpacing: {
         widest: '0.1em',
