@@ -57,18 +57,21 @@ export default function Home() {
           </div>
           
           <div className="flex flex-col gap-1 md:text-right">
-            <span>San Francisco & San Diego, CA</span>
+            <span>San Francisco · San Diego · Colorado Springs · Washington, D.C.</span>
           </div>
 
-          <div className="hidden md:block">
+          <div className="flex flex-col md:items-end gap-1">
             <AnchorWithUnderline href="mailto:rugglesbohannon@gmail.com" className="hover:text-white transition-colors">Contact</AnchorWithUnderline>
+            <LinkWithUnderline href="/writings">
+              <span className="hover:text-white transition-colors">Writings & Guides</span>
+            </LinkWithUnderline>
           </div>
         </motion.header>
 
         {/* Hero */}
         <motion.section variants={item} className="max-w-4xl">
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-normal leading-tight text-white">
-            Ruggles Bohannon is an engineer building critical infrastructure for space systems and defense.
+            Ruggles Bohannon is an engineer rebuilding American federal acquisition.
           </h2>
         </motion.section>
 
@@ -79,12 +82,10 @@ export default function Home() {
           </div>
           <div className="md:col-span-9 max-w-2xl text-lg text-gray-300 leading-relaxed space-y-6">
             <p>
-              I build automations, data pipelines, and evaluation systems. Currently leading a deep tech space company. 
-              Based in San Francisco and San Diego.
+              I build data infrastructure, automations, and evaluation systems to rebuild the American federal acquisition system. Currently leading Kharros and a stealth company. Based in San Francisco, San Diego, Colorado Springs, and Washington, D.C.
             </p>
             <p>
-              Most systems generate more data than they use. I've spent my career building the infrastructure that closes that gap, 
-              particularly in critical infrastructure, supply chains, manufacturing, and space systems.
+              Government procurement and defense programs generate more data than they use. I build the infrastructure that closes that gap across federal contracting, defense supply chains, manufacturing, and space systems.
             </p>
           </div>
         </motion.section>
@@ -97,6 +98,14 @@ export default function Home() {
           <div className="md:col-span-9 w-full space-y-8">
             <div className="group">
               <div className="flex justify-between items-baseline">
+                <span className="text-xl text-white font-medium">Kharros</span>
+                <span className="text-sm text-gray-500">2025 → Present</span>
+              </div>
+              <p className="mt-2 text-gray-400">Federal acquisition at the speed of innovation</p>
+            </div>
+
+            <div className="group">
+              <div className="flex justify-between items-baseline">
                 <span className="text-xl text-white font-medium">Stealth Space Co.</span>
                 <span className="text-sm text-gray-500">2024 → Present</span>
               </div>
@@ -105,7 +114,7 @@ export default function Home() {
 
             <div className="group">
               <div className="flex justify-between items-baseline">
-                <span className="text-xl text-white font-medium">Department of Defense Fellow</span>
+                <span className="text-xl text-white font-medium">Department of Defense</span>
                 <span className="text-sm text-gray-500">2025</span>
               </div>
               <p className="mt-2 text-gray-400">DIU x USSF Special Project</p>
@@ -113,7 +122,7 @@ export default function Home() {
 
             <div className="group">
               <div className="flex justify-between items-baseline">
-                <span className="text-xl text-white font-medium">AM LAB</span>
+                <span className="text-xl text-white font-medium">Additive Manufacturing Lab (AM LAB)</span>
                 <span className="text-sm text-gray-500">2024</span>
               </div>
               <p className="mt-2 text-gray-400">Research platform tracking additive manufacturing adoption</p>
